@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b15e2922-efa4-45ea-8aea-81f73fd6c746" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env_example.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Doggles-Sales-Analytics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Doggles-Sales-Analytics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/shopify_to_AWS_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/shopify_to_AWS_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etls/Shopify_Connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/etls/Shopify_Connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etls/Shopify_Get_Inventory.py" beforeDir="false" afterPath="$PROJECT_DIR$/etls/Shopify_Get_Inventory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etls/load_to_aws.py" beforeDir="false" afterPath="$PROJECT_DIR$/etls/load_to_aws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-12T234736.979223+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-12T234736.979223+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-12T234736.979223+0000/task_id=upload_orders/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-12T234736.979223+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-12T234736.979223+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-12T234736.979223+0000/task_id=upload_products/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_orders/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T000916.041606+0000/task_id=upload_products/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T001247.570916+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T001247.570916+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T001247.570916+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T001247.570916+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T001247.570916+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T001247.570916+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T002020.354042+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T002020.354042+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T002020.354042+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T002020.354042+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T011427.456820+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T011427.456820+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T011427.456820+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T011427.456820+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012440.607597+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012440.607597+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012440.607597+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012440.607597+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012812.439783+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012812.439783+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012812.439783+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T012812.439783+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T014132.622315+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T014132.622315+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T014132.622315+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T014132.622315+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T031006.630867+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T031006.630867+0000/task_id=upload_analytics/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T031006.630867+0000/task_id=upload_analytics/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T031006.630867+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T031006.630867+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T035710.095313+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T035710.095313+0000/task_id=upload_analytics/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T035710.095313+0000/task_id=upload_analytics/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T035710.095313+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T035710.095313+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T040502.523920+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T040502.523920+0000/task_id=upload_analytics/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T040502.523920+0000/task_id=upload_analytics/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T040502.523920+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T040502.523920+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T041552.111231+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T041552.111231+0000/task_id=upload_analytics/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T041552.111231+0000/task_id=upload_analytics/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T041552.111231+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T041552.111231+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T043939.798271+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T043939.798271+0000/task_id=upload_analytics/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T043939.798271+0000/task_id=upload_analytics/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T043939.798271+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T043939.798271+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T045354.414231+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T045354.414231+0000/task_id=upload_analytics/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T045354.414231+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T045354.414231+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T050632.789424+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T050632.789424+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T050632.789424+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T050632.789424+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T051540.980575+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T051540.980575+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T051540.980575+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2025-12-13T051540.980575+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T214528.346875+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T214528.346875+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T214528.346875+0000/task_id=upload_line_items/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T214528.346875+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T214528.346875+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T222247.582132+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T222247.582132+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T222247.582132+0000/task_id=upload_line_items/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T222247.582132+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T222247.582132+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T224427.258490+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T224427.258490+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T224427.258490+0000/task_id=upload_line_items/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T224427.258490+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=manual__2026-03-09T224427.258490+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_analytics/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_orders/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-01T060000+0000/task_id=upload_products/attempt=3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=upload_analytics/attempt=1.log.SchedulerJob.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=upload_orders/attempt=1.log.SchedulerJob.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=upload_products/attempt=1.log.SchedulerJob.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2025-12-08T060000+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=upload_analytics/attempt=1.log.SchedulerJob.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=upload_orders/attempt=1.log.SchedulerJob.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=upload_products/attempt=1.log.SchedulerJob.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-02T060000+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-09T060000+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-09T060000+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-09T060000+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-09T060000+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-23T060000+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-23T060000+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-23T060000+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-02-23T060000+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=print_summary/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=upload_customers/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=upload_customers/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=upload_orders/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=upload_orders/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=upload_products/attempt=1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_id=shopify_to_aws_weekly/run_id=scheduled__2026-03-02T060000+0000/task_id=upload_products/attempt=2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2025-12-12/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2025-12-13/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2026-02-12/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2026-02-13/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2026-03-07/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2026-03-09/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2026-03-10/shopify_to_AWS_dag.py.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/customers_latest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/line_items_latest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/orders_latest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/products_latest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipelines/Shopify_Pipeline_AWS_backup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_analytics/customer_analysis.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_analytics/inventory_analysis.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_analytics/sales_analysis.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/constants.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3AljPbOAcWwNLnGQY7GOycbVRn4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "open-source",
+    "last_opened_file_path": "C:/Users/joed/OneDrive/Documents/GitHub/Doggles-Sales-Analytics"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joed\OneDrive\Documents\GitHub\Doggles-Sales-Analytics" />
+      <recent name="C:\Users\joed\OneDrive\Documents\GitHub\Doggles-Sales-Analytics\utils" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b15e2922-efa4-45ea-8aea-81f73fd6c746" name="Changes" comment="" />
+      <created>1773174028616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773174028616</updated>
+    </task>
+    <servers />
+  </component>
+</project>

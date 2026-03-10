@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Output data
+output/
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
