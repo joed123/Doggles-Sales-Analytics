@@ -24,18 +24,7 @@ This pipeline automates the extraction of Shopify store data (orders, products, 
 
 ## Architecture
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   Shopify    │────▶│  Apache      │────▶│  Amazon S3   │────▶│   Amazon     │
-│   REST API   │     │  Airflow     │     │  (CSV files) │     │   Athena     │
-└──────────────┘     │  (Docker)    │     └──────────────┘     └──────┬───────┘
-                     └──────────────┘                                  │
-                                                                       ▼
-                                                              ┌──────────────┐
-                                                              │   Power BI   │
-                                                              │  Dashboard   │
-                                                              └──────────────┘
-```
+![Architecture Diagram](Doggles_architecture.png)
 
 ### Data Flow
 
